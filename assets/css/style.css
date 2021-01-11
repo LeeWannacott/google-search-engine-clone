@@ -107,9 +107,11 @@ body {
     background-color:transparent;
     padding: 12px;
     font-size:16px;
+    outline-color:lightsteelblue;
+    /*outline: none;*/
 }
 .headerContent .searchButton {
-    background-color:#FAFAFA;
+    background-color:#fff;
     border: none;
     height: 44px;
     margin-top: 0;
@@ -120,4 +122,5 @@ body {
 }
 .headerContent .searchBarContainer .searchButton img{
     width:3em;
+    background-color:#fff;
 
