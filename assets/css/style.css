@@ -2,11 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #545454;
 }
+
 html,
 body {
     margin:0;
     height:100%;
 }
+
 .wrapper {
     display:flex;
     flex-direction: column;
@@ -16,23 +18,25 @@ body {
 .wrapper.indexPage {
     justify-content:center;
 }
-.mainSection{
+
+.mainSection {
     display:flex;
     flex-direction:column;
     align-items:center;
 }
-.mainSection .searchContainer{
+
+.mainSection .searchContainer {
     margin-top:20px;
     width:100%;
 }
 
-.mainSection .searchContainer form{
+.mainSection .searchContainer form {
     display:flex;
     flex-direction:column;
     align-items:center;
 }
 
-.searchContainer .searchButton{
+.searchContainer .searchButton {
    color:#757575; 
    background-color:#f5f5f5;
    border:none;
@@ -67,6 +71,7 @@ body {
 .logoContainer img {
     width:100%;
 }
+
 .header{
     background-color:#FAFAFA;
     border-bottom: 1px solid #ebebeb;
@@ -75,8 +80,6 @@ body {
 .wrapper .headerContent {
     display:flex;
     align-items:center;
-    margin-top:1em;
-    margin-bottom:1em;
 }
 
 .headerContent .logoContainer {
@@ -84,13 +87,16 @@ body {
     padding: 5px 20px;
     box-sizing: border-box;
 }
+
 .headerContent .searchContainer {
     flex: 1;
 
 }
+
 .headerContent .searchContainer form {
     margin: 15px 0 28px 0;
 }
+
 .headerContent .searchBarContainer {
     display: flex;
     height: 44px;
@@ -101,26 +107,59 @@ body {
     max-width: 630px;
     box-sizing: border-box;
 }
+
 .headerContent .searchBarContainer .searchBox {
     flex: 1;
     border: none;
     background-color:transparent;
     padding: 12px;
-    font-size:16px;
-    outline-color:lightsteelblue;
+    font-size: 16px;
+    outline-color: lightsteelblue;
     /*outline: none;*/
 }
+
 .headerContent .searchButton {
-    background-color:#fff;
+    background-color: #fff;
     border: none;
     height: 44px;
     margin-top: 0;
     width: 44px;
-    display:flex;
-    justify-content:center;
-
+    display: flex;
+    justify-content: center;
 }
-.headerContent .searchBarContainer .searchButton img{
+
+.headerContent .searchBarContainer .searchButton img {
     width:3em;
     background-color:#fff;
+}
 
+.tabsContainer {
+    display:flex;
+    margin-left: 150px;
+
+}
+
+.tabsContainer .tabList {
+    padding: 0;
+    margin: 0;
+}
+
+.tabsContainer .tabList li {
+    display: inline-block;
+    padding: 0 16px 12px 16px;
+    color: #777;
+    font-size: 13px;
+}
+
+.tabsContainer .tabList li a {
+    text-decoration: none;
+}
+
+.tabsContainer .tabList li.active {
+    border-bottom: 3px solid #1A73E8;
+}
+
+.tabsContainer .tabList li.active a {
+    font-weight: bold;
+    color: #1A73E8;
+}

@@ -11,7 +11,7 @@
 
     <div class="mainSection">
         <div class="logoContainer">
-            <img src="assets/images/Lee'Search!Logo.png" alt="">
+            <img src="assets/images/Lee'Search!Logo.png" alt="search">
         </div>  
 
         <div class = "searchContainer">
