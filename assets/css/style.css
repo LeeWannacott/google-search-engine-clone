@@ -159,6 +159,14 @@ body {
     border-bottom: 3px solid #1A73E8;
 }
 
+.tabsContainer .tabList active a {
+    font-weight: bold;
+    color: #1A73E8;
+}
+.tabsContainer .tabList li.active {
+    border-bottom: 3px solid #1A73E8;
+}
+
 .tabsContainer .tabList li.active a {
     font-weight: bold;
     color: #1A73E8;
